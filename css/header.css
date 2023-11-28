@@ -1,0 +1,54 @@
+:root{
+    --background_01:#0D0D0D;
+    --background_02:#101010;
+    --background_03:#2a2a2a;
+    --background_04:#484343;
+
+    --acent: #F2A922;
+}
+
+header{
+    background-color: #0D0D0D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header__Logo{
+    display: flex;
+    color: var(--acent);
+    justify-content: center;
+    
+    gap: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Inter;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__barraDePesq{
+    width: 50%;
+    background-color: #101010;
+    padding: 10px;
+    /* border: 1px solid var(--acent); */
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    gap: 10px;
+}
+.header__barraDePesq input{
+    background: none;
+    border: none;
+    width: 95%;   
+    color: white;
+    outline: none;
+}
+
+/* .header__menu{
+
+} */
